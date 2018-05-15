@@ -1,6 +1,6 @@
 # Info
 
-Node image for build purposes.
+Node 10 image, based on alpine linux, for build purposes.
 
 ## Installs
 
