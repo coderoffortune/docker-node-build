@@ -1,3 +1,3 @@
-FROM node:10-alpine 
+FROM node:10.12-alpine 
 
-RUN npm i -g npm@6.0.1 && npm cache clean --force && apk --no-cache add python g++ make
+RUN set -xe && apk --no-cache add git python g++ make
